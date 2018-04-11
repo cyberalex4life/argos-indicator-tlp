@@ -2,7 +2,7 @@
 Gnome Shell Indicator for TLP daemon, using Argos API
 
 
-![Argos Based TLP Indicator](https://github.com/cyberalex4life/argos-indicator-tlp/blob/master/screenshots/tlp_ac.jpg) ![Argos Based TLP Indicator](https://github.com/cyberalex4life/argos-indicator-nvidia-prime/blob/master/screenshots/argos-nvidia-prime2.jpg)
+![Argos Based TLP Indicator](https://github.com/cyberalex4life/argos-indicator-tlp/blob/master/screenshots/tlp_ac.jpg) ![Argos Based TLP Indicator](https://github.com/cyberalex4life/argos-indicator-tlp/blob/master/screenshots/tlp_bat.jpg)
 
 #### Installation
 Install [Argos](https://extensions.gnome.org/extension/1176/argos/) Gnome-Shell extension.
