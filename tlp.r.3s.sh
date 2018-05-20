@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 run_as_root="pkroot -d" # gksu; pkroot; gnomesu -c;
-this_script_path="$HOME/.config/argos/""$(basename "$0")"
 status=$(tlp stat -s  | grep Mode | awk '{ print $3 }' | tr [:lower:] [:upper:] )
 ac_icon="battery-full-charging-symbolic"
 battery_icon="battery-symbolic"
@@ -17,8 +16,8 @@ get_status_icon_name(){
 _tlp="$(which tlp)"
 _tlp_ac="$_tlp ac"
 _tlp_bat="$_tlp bat"
-tlp_ac="\"$run_as_root \\\"$_tlp_ac\\\"; $this_tlp_script_path\""
-tlp_bat="\"$run_as_root \\\"$_tlp_bat\\\"; $this_tlp_script_path\""
+tlp_ac="\"$run_as_root \\\"$_tlp_ac\\\"\""
+tlp_bat="\"$run_as_root \\\"$_tlp_bat\\\"\""
 
 
 active_mode_icon=$(get_status_icon_name)
