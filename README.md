@@ -7,7 +7,7 @@ Gnome Shell Indicator for switching **tlp** daemon modes (AC/battery) using Argo
 - [Argos](https://extensions.gnome.org/extension/1176/argos/) Gnome Shell extension.
 - tlp: `sudo apt install tlp`
 - one of the following:
-    - [pkroot](https://github.com/cyberalex4life/pkroot) - minimum already provided in github repository
+    - [pkroot](https://github.com/cyberalex4life/pkroot) - minimum already provided in this repository
     - gksu: `sudo apt install gksu`
     - gnomesu - OpenSuSE only
 
