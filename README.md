@@ -1,5 +1,5 @@
 # argos-indicator-tlp
-Gnome Shell Indicator for switching **tlp** daemon modes (AC/battery) using Argos API.
+Gnome Shell Indicator for switching **tlp** daemon power modes (AC/battery) using Argos API.
 
 ![Argos Based TLP Indicator](https://github.com/cyberalex4life/argos-indicator-tlp/blob/master/screenshots/tlp_ac.jpg) ![Argos Based TLP Indicator](https://github.com/cyberalex4life/argos-indicator-tlp/blob/master/screenshots/tlp_bat.jpg)
 
@@ -104,3 +104,7 @@ Then uninstall Argos if you don't need it anymore.
     * if `INTERVAL` is followed by `+`, the plugin is additionally re-run each time the dropdown menu is opened.
 
     `POSITION` may be omitted entirely (in which case the button is placed before all other buttons on the right-hand side of the panel) while `INTERVAL` can be left empty. For example, a script named `plugin.10s.sh` is updated every 10 seconds, the button belonging to `plugin.1c..sh` is positioned just right of the GNOME Shell clock, and `plugin.l.1m.sh` is displayed left of the "Activities" button and updated every minute.
+
+#### Other indicators:
+- [argos-indicator-cpupower](https://github.com/cyberalex4life/argos-indicator-cpupower) - for switching CPU governors
+- [argos-indicator-nvidia-prime](https://github.com/cyberalex4life/argos-indicator-nvidia-prime) - for managing NVidia Prime
